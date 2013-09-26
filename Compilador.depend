@@ -1,0 +1,142 @@
+# depslib dependency file v1.0
+1380240442 source:c:\users\lex\desktop\compilador\src\lexico.cpp
+	"../include/Lexico.h"
+	"../include/Funciones.h"
+
+1380240442 e/Funciones.h"
+
+1380243101 c:\users\lex\desktop\compilador\include\lexico.h
+	<string>
+	<iostream>
+	<cctype>
+
+1380167173 
+
+1380078476 source:c:\users\lex\desktop\compilador\src\tablasimbolos.cpp
+	"../include/TablaSimbolos.h"
+
+1380078476 e/TablaSimbolos.h"
+
+1380078362 c:\users\lex\desktop\compilador\include\tablasimbolos.h
+	<string>
+	<iostream>
+
+1380078362 
+
+1380245444 source:c:\users\lex\desktop\compilador\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<string>
+	"include/Lexico.h"
+	"include/Sintactico.h"
+	"include/ArchivoIO.h"
+
+1380245444 rchivoIO.h"
+
+1380086620 c:\users\lex\desktop\compilador\include\funciones.h
+	<cstring>
+	<fstream>
+	<sstream>
+	"TablaSimbolos.h"
+
+1380078800 olos.h"
+
+1380245644 source:c:\users\lex\desktop\compilador\src\sintactico.cpp
+	"../include/Sintactico.h"
+
+1380078885 e/Sintactico.h"
+
+1380241294 c:\users\lex\desktop\compilador\include\sintactico.h
+	<iostream>
+	<string>
+	"../include/Lexico.h"
+
+1380078956 e/Lexico.h"
+
+1380078956 source:c:\users\lex\desktop\compilador - copia\src\lexico.cpp
+	"../include/Lexico.h"
+
+1380078928 c:\users\lex\desktop\compilador - copia\include\lexico.h
+	<string>
+	<iostream>
+	<cctype>
+
+1380078828 source:c:\users\lex\desktop\compilador - copia\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<string>
+	"include/Lexico.h"
+	"include/Sintactico.h"
+	"include/Funciones.h"
+
+1380078828 unciones.h"
+
+1380078800 c:\users\lex\desktop\compilador - copia\include\funciones.h
+	<cstring>
+	<fstream>
+	<sstream>
+	"TablaSimbolos.h"
+
+1380078362 c:\users\lex\desktop\compilador - copia\include\tablasimbolos.h
+	<string>
+	<iostream>
+
+1380078476 source:c:\users\lex\desktop\compilador - copia\src\tablasimbolos.cpp
+	"../include/TablaSimbolos.h"
+
+1380078885 source:c:\users\lex\desktop\compilador - copia\src\sintactico.cpp
+	"../include/Sintactico.h"
+
+1380078981 c:\users\lex\desktop\compilador - copia\include\sintactico.h
+	<iostream>
+	<string>
+
+1380167173 c:\users\lex\desktop\compilador\include\archivoio.h
+	<fstream>
+	<sstream>
+
+1380247136 source:/mnt/windows/Users/Lex/Desktop/Compilador/main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<string>
+	"include/Lexico.h"
+	"include/Sintactico.h"
+	"include/ArchivoIO.h"
+
+1380243101 /mnt/windows/Users/Lex/Desktop/Compilador/include/Lexico.h
+	<string>
+	<iostream>
+	<cctype>
+
+1380241294 /mnt/windows/Users/Lex/Desktop/Compilador/include/Sintactico.h
+	<iostream>
+	<string>
+	"../include/Lexico.h"
+
+1380167173 /mnt/windows/Users/Lex/Desktop/Compilador/include/ArchivoIO.h
+	<fstream>
+	<sstream>
+
+1380240442 source:/mnt/windows/Users/Lex/Desktop/Compilador/src/Lexico.cpp
+	"../include/Lexico.h"
+	"../include/Funciones.h"
+
+1380086620 /mnt/windows/Users/Lex/Desktop/Compilador/include/Funciones.h
+	<cstring>
+	<fstream>
+	<sstream>
+	"TablaSimbolos.h"
+
+1380078362 /mnt/windows/Users/Lex/Desktop/Compilador/include/TablaSimbolos.h
+	<string>
+	<iostream>
+
+1380245644 source:/mnt/windows/Users/Lex/Desktop/Compilador/src/Sintactico.cpp
+	"../include/Sintactico.h"
+
+1380078476 source:/mnt/windows/Users/Lex/Desktop/Compilador/src/TablaSimbolos.cpp
+	"../include/TablaSimbolos.h"
+
