@@ -11,44 +11,61 @@ Sintactico::~Sintactico( void )
 }
 int Sintactico::analizar( Lexico lexico )
 {
+    lexico.sigPalabra();
     return sentencia( &lexico );
 }
 int Sintactico::sentencia( Lexico *lexico )
 {
-    lexico->sigPalabra();
-    if( lexico->getPalabra() == "" )
+
+
+    if( lexico->getTipo() == ERROR )
     {
-        return EXITO;
-    }
-    else if( expresion( lexico ) == 0 )
-    {
-        if( lexico->getPalabra()  == ";" )
-        {
-            sentencia( lexico );
-        }
-        else
-            return ERROR;
+        cout << "ERROR LEXICO  << ";
+        return ERROR;
     }
     else
     {
-        return ERROR;
+        if( lexico->getPalabra() == "" )
+        {
+            return EXITO;
+        }
+        else if( expresion( lexico ) == 0 )
+        {
+            if( lexico->getPalabra()  == ";" )
+            {
+                sentencia( lexico );
+            }
+            else
+                return ERROR;
+        }
+        else
+        {
+            return ERROR;
+        }
+
+        return EXITO;
     }
 
-    return EXITO;
 
 }
 int Sintactico::expresion( Lexico *lexico )
 {
     if( termino( lexico ) == 0 )
     {
-        while( lexico->getTipo() == ADICION || lexico->getTipo() == MULTIPLICACION )
+       while( lexico->getTipo() == ADICION || lexico->getTipo() == MULTIPLICACION )
         {
             lexico->sigPalabra();
-            if( termino( lexico ) == ERROR )
+            if ( lexico->getTipo() == ERROR )
+            {
+                cout << "ERROR LEXICO  << ";
+                return ERROR;
+            }
+            else if( termino( lexico ) == ERROR )
             {
                 return ERROR;
             }
         }
+
     }
     else
         return ERROR;
@@ -59,13 +76,26 @@ int Sintactico::termino( Lexico *lexico )
     if( lexico->getPalabra() == "(" )
     {
         lexico->sigPalabra();
-        if( expresion( lexico ) == ERROR )
+
+        if( lexico->getTipo() == ERROR )
+        {
+            cout << "ERROR LEXICO  << ";
+            return ERROR;
+        }
+        else if( expresion( lexico ) == ERROR )
         {
             return ERROR;
         }
+
         if( lexico->getPalabra() == ")" )
         {
             lexico->sigPalabra();
+
+            if( lexico->getTipo() == ERROR )
+            {
+                cout << "ERROR LEXICO  << ";
+                return ERROR;
+            }
         }
         else
             return ERROR;
@@ -73,6 +103,11 @@ int Sintactico::termino( Lexico *lexico )
     else if( lexico->getTipo() == ENTERO || lexico->getTipo() == IDENTIFICADOR )
     {
         lexico->sigPalabra();
+        if( lexico->getTipo() == ERROR )
+        {
+            cout << "ERROR LEXICO  << ";
+            return ERROR;
+        }
     }
     else
         return ERROR;
