@@ -10,7 +10,7 @@
 	<iostream>
 	<cctype>
 
-1380167173 
+1380078362 
 
 1380078476 source:c:\users\lex\desktop\compilador\src\tablasimbolos.cpp
 	"../include/TablaSimbolos.h"
@@ -21,9 +21,7 @@
 	<string>
 	<iostream>
 
-1380078362 
-
-1380245444 source:c:\users\lex\desktop\compilador\main.cpp
+1380247136 source:c:\users\lex\desktop\compilador\main.cpp
 	<iostream>
 	<cstdlib>
 	<cstdio>
@@ -42,7 +40,7 @@
 
 1380078800 olos.h"
 
-1380245644 source:c:\users\lex\desktop\compilador\src\sintactico.cpp
+1380500225 source:c:\users\lex\desktop\compilador\src\sintactico.cpp
 	"../include/Sintactico.h"
 
 1380078885 e/Sintactico.h"
