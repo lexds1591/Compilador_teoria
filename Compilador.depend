@@ -138,3 +138,43 @@
 1380078476 source:/mnt/windows/Users/Lex/Desktop/Compilador/src/TablaSimbolos.cpp
 	"../include/TablaSimbolos.h"
 
+1380240442 source:c:\users\lex\desktop\compilador_teoria\src\lexico.cpp
+	"../include/Lexico.h"
+	"../include/Funciones.h"
+
+1380243101 c:\users\lex\desktop\compilador_teoria\include\lexico.h
+	<string>
+	<iostream>
+	<cctype>
+
+1380086620 c:\users\lex\desktop\compilador_teoria\include\funciones.h
+	<cstring>
+	<fstream>
+	<sstream>
+	"TablaSimbolos.h"
+
+1380078362 c:\users\lex\desktop\compilador_teoria\include\tablasimbolos.h
+	<string>
+	<iostream>
+
+1380078476 source:c:\users\lex\desktop\compilador_teoria\src\tablasimbolos.cpp
+	"../include/TablaSimbolos.h"
+
+1380247136 source:c:\users\lex\desktop\compilador_teoria\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<string>
+	"include/Lexico.h"
+	"include/Sintactico.h"
+	"include/ArchivoIO.h"
+
+1380241294 c:\users\lex\desktop\compilador_teoria\include\sintactico.h
+	<iostream>
+	<string>
+	"../include/Lexico.h"
+
+1380167173 c:\users\lex\desktop\compilador_teoria\include\archivoio.h
+	<fstream>
+	<sstream>
+
