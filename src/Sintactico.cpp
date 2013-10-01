@@ -100,6 +100,11 @@ int Sintactico::termino( Lexico *lexico )
         else
             return ERROR;
     }
+    else if( lexico->getPalabra() == "+" )
+    {
+        lexico->sigPalabra();
+        expresion(lexico);
+    }
     else if( lexico->getTipo() == ENTERO || lexico->getTipo() == IDENTIFICADOR )
     {
         lexico->sigPalabra();
