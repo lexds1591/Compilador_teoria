@@ -33,7 +33,13 @@ int Sintactico::sentencia( Lexico *lexico )
         {
             if( lexico->getPalabra()  == ";" )
             {
-                sentencia( lexico );
+                lexico->sigPalabra();
+                if( lexico->getPalabra() != "" )
+                {
+                    return sentencia( lexico );
+                }
+
+
             }
             else
                 return ERROR;
@@ -103,7 +109,7 @@ int Sintactico::termino( Lexico *lexico )
     else if( lexico->getPalabra() == "+" )
     {
         lexico->sigPalabra();
-        expresion(lexico);
+        return expresion(lexico);
     }
     else if( lexico->getTipo() == ENTERO || lexico->getTipo() == IDENTIFICADOR )
     {
