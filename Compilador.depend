@@ -160,7 +160,7 @@
 1380078476 source:c:\users\lex\desktop\compilador_teoria\src\tablasimbolos.cpp
 	"../include/TablaSimbolos.h"
 
-1380247136 source:c:\users\lex\desktop\compilador_teoria\main.cpp
+1380688493 source:c:\users\lex\desktop\compilador_teoria\main.cpp
 	<iostream>
 	<cstdlib>
 	<cstdio>
@@ -177,4 +177,7 @@
 1380167173 c:\users\lex\desktop\compilador_teoria\include\archivoio.h
 	<fstream>
 	<sstream>
+
+1380688848 source:c:\users\lex\desktop\compilador_teoria\src\sintactico.cpp
+	"../include/Sintactico.h"
 

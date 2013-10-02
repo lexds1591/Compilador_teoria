@@ -1,5 +1,5 @@
 /*@Practica #2
- **Alejandro Duarte Sánchez
+ *Alejandro Duarte Sánchez
  *Seccion:D02
  */
 
